@@ -1,1 +1,354 @@
-# rba
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8"  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TTS</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+
+
+  <!-- Header -->
+
+  <header class="header">
+
+      <nav class="nav-container">
+
+                      <a href="#backtomainpage" class="nav-link">Back to main page</a>
+
+          <a href="#home" class="logo">
+
+              <img src="logo.png" alt="Logo" class="logo-img">
+
+              <span class="logo-text">Tukuran Tourist Spots</span>
+
+            </a>
+
+          <ul class="nav-menu">
+
+            <li class="nav-item">
+
+                <a href="#home" class="nav-link">Home</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a href="#destination" class="nav-link">Facilities</a>
+
+            </li>
+
+                <li class="nav-item">
+
+                    <a href="#gallery" class="nav-link">Gallery</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="#developers" class="nav-link">Developers</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Hero Section -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-slideshow">
+
+                <!--Arrange your welcome entrance photo here -->
+
+                <div class="hero-slide active" style="background-image: url('RBA cottages.jpg')"></div> <!-- Add more slides as needed -->
+
+            </div>
+
+            <div class="hero-content">
+
+                <h1>RBA BEACH RESORT</h1> <!-- Change the name of your beach here -->
+
+                <div class="typing-text">
+
+                    <span id="typing-output" class="typing-animation"></span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PUT YOUR FACILITIES HERE -->
+
+        <section id="destination" class="featured-destinations">
+
+            <h2 class="section-title"><span>Facilities</span></h2>
+
+            
+
+            <div class="destination-item">
+
+                <div class="destination-image">
+
+                    <div class="slideshow-container" data-slideshow="1">
+
+                        <div class="slide active" style="background-image: url('rba cottages2.jpg')"></div> <!-- Add your facilities picture as needed -->
+
+                    </div>
+
+                </div>
+
+                <div class="destination-content">
+
+                    <h3>Cottages</h3>
+
+                    <p>The cottages where you can put all your things, rest, and party (300.00/cottage & 50.00 entrance if without cottage.</p>
+
+                </div>
+
+            </div>
+
+        
+
+                        <div class="destination-item">
+
+                <div class="destination-image">
+
+                    <div class="slideshow-container" data-slideshow="1">
+
+                        <div class="slide active" style="background-image: url('rba karaoke area.jpg')"></div> <!-- Add your facilities picture as needed -->
+
+                    </div>
+
+                </div>
+
+                <div class="destination-content">
+
+                    <h3>karaoke</h3> <!-- Change the name of your facility here -->
+
+                    <p>Show your talent here.</p> <!-- Change the information of your facility here -->
+
+                </div>
+
+            </div>
+
+                        <div class="destination-item">
+
+                <div class="destination-image">
+
+                    <div class="slideshow-container" data-slideshow="1">
+
+                        <div class="slide active" style="background-image: url('rba cr.jpg')"></div> <!-- Add your facilities picture as needed -->
+
+                    </div>
+
+                </div>
+
+                <div class="destination-content">
+
+                    <h3>Comfort Room</h3> <!-- Change the name of your facility here -->
+
+                    <p>Find your comfort here.</p> <!-- Change the information of your facility here -->
+
+                </div>
+
+            </div>
+
+                        <div class="destination-item">
+
+                <div class="destination-image">
+
+                    <div class="slideshow-container" data-slideshow="1">
+
+                        <div class="slide active" style="background-image: url('rba store.jpg')"></div> <!-- Add your facilities picture as needed -->
+
+                    </div>
+
+                </div>
+
+                <div class="destination-content">
+
+                    <h3>Store</h3> <!-- Change the name of your facility here -->
+
+                    <p> Buy your needs here.</p> <!-- Change the information of your facility here -->
+
+                </div>
+
+            </div>
+
+
+
+            
+
+            
+
+            <!-- Gallery Section -->
+
+        <section id="gallery" class="featured-destinations">
+
+            <h2 class="section-title"><span>Gallery</span></h2>
+
+
+
+        <div class="gallery">
+
+            <img src="RBA bridge below.jpg" alt="Image 1"> <!-- Change the image source to your own images -->
+
+            <img src="RBA bridge.jpg" alt="Image 2"> <!-- Change the image source to your own images -->
+
+            <img src="RBA cottages.jpg" alt="Image 3"> <!-- Change the image source to your own images -->
+
+            <img src="rba cottages2.jpg" alt="Image 4"> <!-- Change the image source to your own images -->
+
+            <img src="rba entrance.jpg" alt="Image 5"> <!-- Change the image source to your own images -->
+
+            <img src="rba karaoke area.jpg" alt="Image 6"> <!-- Change the image source to your own images -->
+
+            <img src="rba cr.jpg" alt="Image 7"> <!-- Change the image source to your own images -->
+
+            <img src="rba store.jpg" alt="Image 8"> <!-- Change the image source to your own images -->
+
+            <!-- Add more as needed -->
+
+            <!-- delete if not needed-->
+
+        </div>
+
+    </section>
+
+
+
+            <!-- Modal -->
+
+        <div class="modal" id="modal">
+
+    <span class="close" id="closeBtn">&times;</span>
+
+    <button class="modal-nav" id="prevBtn">&#10094;</button>
+
+    <img id="modalImg" src="" alt="Full View">
+
+    <button class="modal-nav" id="nextBtn">&#10095;</button>
+
+        </div>
+
+ 
+
+
+
+  <!-- Developers Section -->
+
+        <section id="developers" class="developers">
+
+            <h2 class="section-title"><span>Developers</span></h2>
+
+            <div class="developers-grid">
+
+                <div class="developer-card">
+
+                    <div class="developer-video">
+
+                        <img src="jerryb.jpeg" alt="Img" class="developer-video"> <!-- Put your Own photo here-->
+
+                    </div>
+
+                    <div class="developer-name">Jerry Bulfa</div> <!-- Ilagay nyo pangalan nyo dito -->
+
+                    <div style="color: transparent;" class="developer-role"></div>
+
+                    <div class="developer-bio">Photographer</div> <!-- Ilagay nyo role nyo dito kung ano kayo sa grupo -->
+
+                </div>
+
+                <div class="developer-card">
+
+                    <div class="developer-video">
+
+                        <img src="CrsmieJ.jpeg" alt="Img" class="developer-video"> <!-- Put your Own photo here-->
+
+                    </div>
+
+                    <div class="developer-name">Crsmie Jumamoy</div> <!-- Ilagay nyo pangalan nyo dito -->
+
+                    <div style="color: transparent;" class="developer-role"></div>
+
+                    <div class="developer-bio">web developer</div>  <!-- Ilagay nyo role nyo dito kung ano kayo sa grupo -->
+
+            </div>
+
+        </section>
+
+  
+
+        <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-section">
+
+                <h4>Tukuran Tourist Spots</h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#destination">Facilities</a></li>
+
+                    <li><a href="#gallery">Gallery</a></li>
+
+                    <li><a href="#developers">Developers</a></li>
+
+                </ul>
+
+            </div>
+
+  <div class="footer-section">
+
+    <h4>Follow Us</h4>
+
+        <div class="social-buttons">
+
+            <a href="https://www.facebook.com/share/1YXgATPxHu/" class="social-btn facebook">Facebook</a> <!-- Change the link to your Facebook page -->
+
+        </div>
+
+  </div>
+
+    </div>
+
+        <div class="footer-bottom">
+
+            <p>&copy; 2025 Tukuran Tourist Spots. All rights reserved. Discover your outing.</p> <!--WALA NA KAYONG BABAGUHIN DITO-->
+
+        </div>
+
+    </footer>
+
+  <script src="script.js"></script>
+
+</body>     
+
+</html>
+
